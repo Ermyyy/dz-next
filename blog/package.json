@@ -1,0 +1,29 @@
+{
+  "name": "blog",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "lint:styles": "stylelint \"app/**/*.css\" --ignore-pattern \"app/globals.css\" --ignore-pattern \"app/page.module.css\""
+  },
+  "dependencies": {
+    "next": "16.1.2",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "babel-plugin-react-compiler": "1.0.0",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.2",
+    "stylelint": "^17.0.0",
+    "stylelint-config-css-modules": "^4.5.1",
+    "stylelint-config-standard": "^40.0.0",
+    "typescript": "^5"
+  }
+}
